@@ -191,9 +191,9 @@ class Adafruit_DCMotor:
 			in1 = 5
 		else:
 			raise NameError('MotorHAT Motor must be between 1 and 4 inclusive')
-			self.PWMpin = pwm
-			self.IN1pin = in1
-			self.IN2pin = in2
+		self.PWMpin = pwm
+		self.IN1pin = in1
+		self.IN2pin = in2
 
 	def run(self, command):
 		if not self.MC:
